@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+        <title>About Me</title>
+    </head>
+    <body>
+        <div class="container flex-box header container-fluid header-items">
+          <img id="mylogo" src="mylogo3.png" alt="My logo" height="50" width="130">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse flex-box" id="navbarSupportedContent">
+                    <ul id="main-nav" class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" id="home" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="index2.html" id="about">About Me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index1.html" id="contact">Contact Me</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="me"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Programming</a></li>
+                          <li><a class="dropdown-item" href="#">Finance and Trading</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="index3.html">Privacy Policy</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <button id="mode" onclick="toggleMode()"></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <hr>
+            <div class="text main-content container-fluid">
+                <h2>About Me</h2>
+              <br>
+                  <p>Hey there! My name is Tinashe Kwande, and I'm thrilled to welcome you to my web page. I'm a 20-year-old from Zimbabwe, and I've got a genuine love for computers, programming, and the incredible world of artificial intelligence. It's an exciting journey that I've embarked upon, driven by my insatiable curiosity and thirst for knowledge.</p>
+                  <p>Ever since I can remember, I've been captivated by technology. What started as a simple fascination with computers quickly evolved into a full-blown passion. I couldn't resist diving deeper into the realm of programming, eager to unravel the mysteries and unlock the limitless possibilities it holds. That's why I'm currently taking the CS50 course, which has been an amazing experience, helping me build a strong foundation in various programming languages.</p>
+                  <p>But my journey doesn't end with CS50. I'm constantly pushing myself to explore new concepts and stay up-to-date with emerging technologies. One area that has completely fascinated me is artificial intelligence (AI). Seeing the transformative power of AI in our fast-paced world has truly inspired me. Every line of code I write feels like a small step towards shaping the future, where AI can revolutionize industries, improve lives, and drive progress like never before.</p>
+                  <p>However, my interests don't stop at technology alone. I've also developed a keen interest in finance. It's remarkable how interconnected finance and technology are, and I believe there's so much potential at their intersection. That's why I've been dedicating my time to learn more about finance and how it relates to the tech world. My goal is to develop innovative financial solutions that can contribute to the advancement of fintech and make a meaningful impact on people's lives.</p>
+                  <p>My journey of self-improvement and skill-building is a constant one. I'm always striving to expand my knowledge and enhance my coding skills. Whether it's through independent learning or hands-on projects, I'm committed to honing my abilities and reaching for excellence. Dedication, perseverance, and resilience are the values that drive me forward and help me overcome any challenges that come my way.</p>
+                  <p>Beyond my academic pursuits, I'm a people person with a zest for life. I love collaborating with like-minded individuals, exchanging ideas, and learning from others. Participating in hackathons and networking with professionals in the field have been incredibly rewarding experiences for me. I truly believe in the power of community and the value of shared experiences.</p>
+                  <p>As you explore my web page, I invite you to join me on this remarkable journey. Together, we can embrace the endless opportunities that lie ahead. With my passion for technology, finance, and unwavering determination, I'm committed to making a profound impact on the world. So, let's connect, collaborate, and create a future where technology and innovation drive positive change.</p>
+            </div>
+        <footer id="footer" class="flex-box container-fluid">
+          <hr>
+            <div id="logo">
+              <img src="mylogo4.png" alt="My logo" height="90" width="90">
+            </div>
+            <div class="flex-box" id="socials">
+                <a href="https://www.facebook.com/itstinashekwande" class="fa fa-facebook fa-2x"></a>
+                <a href="https://www.instagram.com/tinashe.kwande" class="fa fa-instagram fa-2x"></a>
+                <a href="https://www.youtube.com/@tinashe.kwande" class="fa fa-youtube fa-2x"></a>
+            </div>
+          <hr>
+          <div class="flex-box">
+            <div class="flex-box">
+              <p id="footerWords" class="text">Tinashe Kwande &copy; All rights reserved</p>
+            </div>
+            <div>
+              <ul>
+                <li class="nav-item flex-box" id="footer-menu">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="index2.html">About me</a>
+                  <a class="nav-link" href="index1.html">Contact us</a>
+                  <a class="nav-link" href="#">Terms and Conditions</a>
+                  <a class="nav-link" href="index3.html">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+    </body>
+</html>
